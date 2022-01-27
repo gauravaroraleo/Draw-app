@@ -1,0 +1,18 @@
+h1{width:100%;background-color:chartreuse;margin-top:0;box-shadow: 15px 15px 40px black}
+#show_sketch{float:right}
+#guess,#conf,#wtd{color:red;font-weight:bold;font-size:20px}
+#score{font-size:20px;color:cornflowerblue;margin-left:20px}
+#time{font-size:20px;color:darkblue;margin-right:35px;float:right}
+canvas{
+border:15px blue;
+border-radius: 10px;
+    animation-name:bla;
+        animation-duration:4s;
+    animation-iteration-count:infinite;
+
+    
+}
+@keyframes bla{
+    from{box-shadow:5px 5px 40px yellow}
+    to{box-shadow:5px 5px 40px orange}
+}
